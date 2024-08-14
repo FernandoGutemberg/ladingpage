@@ -1,2 +1,2 @@
 # ladingpage
-Criando uma Lading Page co, HTML e CSS
+Criando uma Lading Page com, HTML e CSS
