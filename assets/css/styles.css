@@ -9,7 +9,8 @@
     /* para alinhar ao centro */
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content,
+.intro-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -39,11 +40,12 @@
     text-align: center;
 }
 
-.grid-one-content {
-    height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+.grid-main-heading {
+    margin-bottom: 1rem;
+}
+
+.grid-description {
+    padding-bottom: 5rem;
 }
 
 .grid {
@@ -53,14 +55,14 @@
     counter-reset: grid-counter;
 }
 
-.grid  h3 {
+.grid h3 {
     font-size: 3rem;
     position: relative;
     left: 5rem;
 
 }
 
-.grid  h3::before {
+.grid h3::before {
     font-size: 3rem;
     counter-increment: grid-counter;
     content: counter(grid-counter);
