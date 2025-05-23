@@ -85,3 +85,10 @@
     left: -2rem;
     transform: rotate(5deg);
 }
+
+.gallery-img {
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+}
