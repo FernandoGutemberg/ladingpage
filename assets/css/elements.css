@@ -61,7 +61,13 @@
     margin-bottom: 3rem;
  }
 
+ .responsive-table {
+    overflow: hidden;
+    overflow-y: auto;
+ }
+
  table {
+    min-width: 360px;
     width: 100%;
     border-collapse: collapse;
  }
@@ -74,6 +80,7 @@
  }
 
  table td, table th {
+    text-wrap: nowrap;
     padding: 0.5rem;
     text-align: left;
     border: 0.1rem solid var(--light-gray-color);
